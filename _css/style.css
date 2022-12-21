@@ -1,0 +1,221 @@
+*{
+    margin: 0px;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    margin: 20%;
+}
+
+body{
+    background-color: rgb(92, 176, 250);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#conversor{
+    background-color: rgb(157, 222, 248);
+}
+
+input{
+    border: 1px solid rgb(0, 15, 0);
+    box-shadow: 2px 2px 2px rgba(1, 37, 1, 0.384);
+    border-radius: 5px;
+    width: 80vw;
+    height: 34px;
+    text-indent: 5px;
+    font-size: 14pt;
+
+}
+
+ul{
+    list-style: none;
+    padding-left: 0;
+    margin-left: 1%;
+    margin-right: 1%;
+    
+}
+
+ul a{
+    list-style: none;
+    text-decoration: none;
+    color: rgb(0, 22, 3);
+    padding: 5px;
+    margin: 0px;
+
+    
+    
+     
+    
+}
+
+
+ul li{
+    padding: 6px;
+    background-color: rgba(168, 252, 255, 0.5);
+    margin: 8px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px rgba(31, 128, 255, 0.664);
+    margin-left: 0px;
+}
+
+#menuprincipal{
+    width: 100vw;
+    margin: 0px;
+    align-items: center;
+    
+}
+
+#menuprincipal button{
+    width: 300px;
+    height: 50px;
+    margin: 7px;
+    text-align: center;
+    border: 1px solid rgb(9, 73, 41);
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px rgba(1, 27, 9, 0.521);
+
+    
+    
+}
+
+button:hover{
+    background-color: rgb(67, 149, 255);
+    
+}
+
+#menuprincipal img{
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    margin-right: 7%;
+    margin-left: 2%;
+    
+
+}
+
+#menuprincipal p{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    color: rgb(5, 61, 17);
+}
+
+#menuprincipal input{
+    margin: 2% 0% 2% 0%;
+}
+
+#menuAtividades{
+    list-style: none;
+    text-decoration: none;
+}
+
+#menu{
+    list-style: none;
+    text-decoration: none;
+}
+
+#conversao{
+    margin: 1%;
+    padding: 2px;
+    display: block;
+    text-align: center;
+
+}
+
+#conversao p{
+    margin-bottom: 2%;
+    text-align: center;
+}
+
+#conversao input{
+    width: 80%;
+    font-size: 18pt;
+
+}
+
+#conversao h1{
+    margin: auto;
+    margin-top: 1%;
+    background-color: rgb(91, 192, 250);
+    border: 1px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30pt;
+    box-shadow: 3px 3px 3px rgba(3, 3, 61, 0.61);
+    width: 80%;
+    text-align: center;
+}
+
+
+#ww_6bcd26adaef8f{
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin: 0px;
+    align-items: center;
+    
+
+}
+
+#clima{
+    text-align: center;
+    margin-top: 50px;
+}
+
+header{
+    text-align: center;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer{
+    text-align: center;
+    margin-top: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer h1{
+    font-size: 15pt;
+}
+
+.exibir{
+    margin: 0px;
+}
+
+.telaview{
+    margin: 0px;
+    
+}
+
+.telaview iframe{
+    height: 84vh;
+    width: 98vw;
+    margin: auto;
+}
+
+.controles{
+    margin: 5px;
+    margin-right: 40%;
+    margin-left: 40%;
+}
+
+.info{
+    height: 20px;
+    margin: 4px 0px 2px 0px;
+    text-align: center;
+    
+}
+
+.info h1{
+    font-size: 14pt;
+    
+}
+
+#view{
+    background-color: rgb(92, 176, 250);
+    text-align: center;
+    margin: auto;
+}

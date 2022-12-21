@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="_css/style.css">
+</head>
+<body onload="alterar()" id="conversor">
+    
+    <header>
+        <img src="_galery/preciptacao64.png" alt="">
+        <h1>Precipitação</h1>
+    </header>
+
+    <div id="menuprincipal">
+        <a href="menucampo.html">
+            <button>
+                <p>
+                    <img src="_galery/voltar32.png" alt="">
+                    Voltar
+                </p>
+            </button> 
+        </a>
+    </div>
+    
+    <div class="info">
+        
+        
+    </div>
+
+    <div id="conversao">
+
+        <p>Informe a quantidade obtida em <strong>ML</strong> para converter em <strong>MM</strong>:</p>
+        <input type="number" placeholder="ml" id="caixaml" onkeyup="converter()">
+        <h1 id="textomm">0.00 mm</h1>
+
+    </div>
+    
+    <section id="clima">
+        <div id="ww_6bcd26adaef8f" v='1.20' loc='id' a='{"t":"horizontal","lang":"pt","ids":["wl4981"],"cl_bkg":"image","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#81D4FA","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722","sl_sot":"celsius","sl_ics":"one_a","font":"Arial"}'>Weather for the Following Location: <a href="https://2ua.org/bra/juazeiro/map/" id="ww_6bcd26adaef8f_u" target="_blank">Juazeiro map, Brazil</a></div><script async src="https://srv2.weatherwidget.org/js/?id=ww_6bcd26adaef8f"></script>
+    </section>
+    
+
+
+    <script src="_scripts/script.js"></script>
+</body>
+</html>

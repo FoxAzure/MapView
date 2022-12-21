@@ -1,0 +1,180 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16pt;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+header{
+    background-color: rgb(0, 117, 45);
+    text-align: center;
+    color: white;
+}
+
+header div{
+    display: flex;
+    flex-direction: row;
+    margin: 15px
+}
+div#about{
+    position: absolute;
+    right: 2%;
+    top: 1%;
+
+}
+
+h1#nome{
+    font-size: 20pt;
+    margin-left: 25px;
+    color: rgb(255, 255, 255);
+    text-shadow: 4px 4px 4px rgba(0, 17, 3, 0.479);
+}
+
+
+footer{
+    background-color: rgb(27, 165, 207);
+    text-align: center;
+    color: white;
+    margin: auto;
+    padding: 5px;
+
+    
+}
+
+div#menuprincipal{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-image: linear-gradient(rgb(135, 253, 89), rgb(27, 165, 207));
+    height: 85vh;
+    padding: -30px;
+    
+
+
+}
+
+button.antigo{
+    width: 80%;
+    height: 25%;
+    margin: auto;
+    background-color: rgb(144, 224, 144);
+    border-radius: 0%;
+    box-shadow: 3px 3px 3px rgba(3, 59, 3, 0.473);
+
+}
+
+img#itens{
+    margin: 2% auto;
+}
+
+img#icon{
+    margin: 2%;
+    margin-top: 5px;
+}
+
+
+
+p#nome{
+    font-weight: bold;
+    color: red;
+}
+
+p#familia{
+    font-size: 12pt;
+    color: blue;
+}
+
+button:hover{
+    background-color: rgb(95, 209, 253);
+}
+
+div#pesquisabox{
+    margin: 10px auto 10px auto;
+    text-align: center;
+    
+}
+
+body{
+    background-color: rgb(92, 176, 250);
+}
+
+body#index{
+    background-color: rgb(0, 117, 45);
+}
+
+input{
+    border: 2px solid rgb(0, 80, 117);
+    border-radius: 5px;
+    text-indent: 15px;
+    width: 85%;
+    height: 30px;
+    box-shadow: 3px 3px 3px rgba(10, 25, 92, 0.473);
+}
+
+button#voltar{
+    border-radius: 5px;
+    font-weight: bold;
+    width: 150px;
+    height: 40px;
+
+}
+
+div#menulista{
+
+    background-color: rgb(92, 176, 250);
+    
+    
+}
+
+
+li{
+    padding: 6px;
+    background-color: rgba(168, 252, 255, 0.5);
+    margin: 8px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px rgba(31, 128, 255, 0.664);
+    list-style: none;
+
+}
+
+li a{
+    font-size: 11pt;
+    color: rgb(3, 20, 0);
+    padding: 3px;
+
+}
+
+a.item{
+
+    margin: 3%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 100%;
+    height: 15%;
+
+
+}
+
+button#btit{
+    width: 100%;
+    height: 90px;
+    border-radius: 10px;
+
+
+}
+
+a.item button div#imgitem{
+    display: flex;
+    flex-direction: row;
+
+    
+}
+
+a.item button div#imgitem img{
+    margin: 5px;
+}
+
+a.item button div#imgitem div{
+    margin: 10px;
+}
