@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.lista{
+    background-image: url(images/background.jpg);
+    text-align: center;
+    margin: auto;
+}
+
+ul{
+    
+    margin: 3% 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+ul li{
+    background-color: rgb(202, 112, 202);
+    padding: 1%;
+    margin: 1% 20%;
+    font-size: 150%;
+    border-radius: 50% 0%;
+    text-align: center;
+    
+}
+
+ul li:hover{
+    background-color: rgb(104, 19, 143);
+    color: white;
+}
+
+#wallpaper{
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+#relogio{
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    border: none;
+    border-radius: 40px;
+    padding: 1%;
+    width: 20%;
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    
+}
+#relogio #txt{
+    font-size: 280%;
+    font-weight: bold;
+}
+
+#relogio #data{
+    font-size: 180%;
+    font-weight: bold;
+}
