@@ -1,0 +1,20 @@
+*{
+    margin: 0; padding: 0;
+}
+
+main{
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+#lista_campos{
+    background-color: rgb(80, 164, 212);
+}
+
+#lista_campos tbody tr:hover{
+    background-color: rgb(93, 209, 93);
+}
+
+#infocampoa{
+    display: none;
+}
