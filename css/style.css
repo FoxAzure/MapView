@@ -2,6 +2,13 @@
     margin: 0; padding: 0;
 }
 
+.menu{
+    max-width: 500px;
+    border: 1px black;
+    text-align: center;
+    
+}
+
 main{
     display: flex;
     flex-flow: column nowrap;
@@ -21,4 +28,6 @@ main{
 
 body{
     background-color: rgb(60, 235, 139);
+    background-image: url('https://blog.chbagro.com.br/user-files/blog/224309.jpg');
+    background-size: cover;
 }
