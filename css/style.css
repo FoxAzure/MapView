@@ -9,14 +9,21 @@ main{
 }
 
 #lista_campos{
+    border-collapse: collapse;
     page-break-inside: auto;
     width: 100%;
-    background-color: rgb(80, 164, 212);
+    background-color: rgb(112, 236, 154);
     
 }
 
+table thead{
+    background-color: rgb(255, 152, 17);
+}
+
 #lista_campos tbody tr:hover{
-    background-color: rgb(93, 209, 93);
+    color: rgb(255, 255, 255);
+    background-color: rgb(3, 54, 20);
+
     cursor: pointer;
 }
 
@@ -31,6 +38,9 @@ body{
     flex-flow: column nowrap;
     align-items: center;
 }
+a{
+    text-decoration: none;
+}
 
 a.button{
     width: 90%;
@@ -39,6 +49,13 @@ a.button{
 
 a.button-principal{
     height: 120px;
+}
+
+button:hover{
+    cursor: pointer;
+    color: rgb(0, 22, 0);
+    background-color: rgb(47, 209, 101);
+    border-color: rgba(12, 122, 49, 0.705);
 }
 
 a.button-telas{
@@ -51,6 +68,11 @@ a.button button{
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
+}
+
+.descri{
+    text-align: left;
+    padding: 2px;
 }
 
 .icone{

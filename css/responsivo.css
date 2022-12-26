@@ -6,6 +6,7 @@
     }
     main{
         margin: 5px;
+        min-width: 400px;
     }
     #TelaView{
         width: 95vw;
@@ -24,6 +25,7 @@
     }
     main{
         margin: 5px;
+        max-width: 500px;
     }
     #TelaView{
         width: 90vw;
@@ -43,7 +45,8 @@
         background-color: rgb(209, 236, 91);
     }
     main{
-        margin: 15px;
+        margin: 5px;
+        min-width: 600px;
     }
     #TelaView{
         width: 75vw;
