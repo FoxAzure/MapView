@@ -1,0 +1,59 @@
+
+
+@media only screen and (max-width: 480px) {
+    body{
+        background-color: rgb(235, 121, 121);
+    }
+    main{
+        margin: 5px;
+    }
+    #TelaView{
+        width: 95vw;
+        height: 75vh;
+    }
+    #pesquisa{
+        width: 70%;
+        height: 25px;
+    }
+    
+}
+
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+    body{
+        background-color: rgb(70, 116, 216);
+    }
+    main{
+        margin: 5px;
+    }
+    #TelaView{
+        width: 90vw;
+        height: 75vh;
+    }
+    #pesquisa{
+        width: 80%;
+        height: 25px;
+    }
+    #lista_campos{
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+    body{
+        background-color: rgb(209, 236, 91);
+    }
+    main{
+        margin: 15px;
+    }
+    #TelaView{
+        width: 75vw;
+        height: 75vh;
+    }
+    #pesquisa{
+        width: 100%;
+        height: 30px;
+    }
+    #lista_campos{
+        width: 100%;
+    }
+}

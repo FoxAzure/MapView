@@ -5,20 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/responsivo.css">
     <title>Document</title>
 </head>
 <body onload="criarlista()">
-    <header>
+    <header class="cabecalho">
         <h1>Campos_Lista</h1>
-        <a href="../index.html">
-            <button>Principal</button>
-        </a>
-        <a href="campos.html">
-            <button>Voltar</button>
-        </a>
+        <nav class="item-menu">
+            <a href="../index.html" class="navegacao">
+                <button><img src="../galeria/icons/cana_32.png" alt="" class="icon-menu"><h2>Principal</h2></button>
+            </a>
+            <a href="campos.html" class="navegacao">
+                <button><img src="../galeria/icons/voltar2_32.png" alt="" class="icon-menu"><h2>Voltar</h2></button>
+            </a>
+        </nav>
     </header>
     <main>
-        <input type="text" name="" id="pesquisa" onkeyup="pesquisarTabela()">
+        <input type="text" name="" id="pesquisa" onkeyup="pesquisarTabela()" placeholder="Pesquisar">
 
         <table id="lista_campos">
             <thead>

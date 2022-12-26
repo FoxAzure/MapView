@@ -2,24 +2,22 @@
     margin: 0; padding: 0;
 }
 
-.menu{
-    max-width: 500px;
-    border: 1px black;
-    text-align: center;
-    
-}
-
 main{
     display: flex;
     flex-flow: column nowrap;
+    align-items: center;
 }
 
 #lista_campos{
+    page-break-inside: auto;
+    width: 100%;
     background-color: rgb(80, 164, 212);
+    
 }
 
 #lista_campos tbody tr:hover{
     background-color: rgb(93, 209, 93);
+    cursor: pointer;
 }
 
 #infocampoa{
@@ -28,6 +26,61 @@ main{
 
 body{
     background-color: rgb(60, 235, 139);
-    background-image: url('https://blog.chbagro.com.br/user-files/blog/224309.jpg');
-    background-size: cover;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
 }
+
+a.button{
+    width: 90%;
+    margin: 1%;
+}
+
+a.button-principal{
+    height: 120px;
+}
+
+a.button-telas{
+    height: 80px;
+}
+
+a.button button{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+.icone{
+    margin: 0 25px;
+}
+
+
+.cabecalho{
+    display: flex;
+    flex-flow: column nowrap;
+}
+.item-menu{
+    display: flex;
+    flex-flow: row nowrap;
+}
+.icon-menu{
+    padding: 5px
+}
+
+.navegacao{
+    width: 120px;
+    height: 80px;
+}
+.navegacao button{
+    width: 100%;
+}
+
+#pesquisa{
+    margin: 5px;
+    font-size: 20px;
+    text-indent: 10px;
+}
+
