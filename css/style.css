@@ -59,7 +59,7 @@ tbody tr{
     text-align: justify;
     text-indent: 20px;
     color: white;
-    text-shadow: 2px 0px rgb(0, 0, 0);
+    text-shadow: 3px 0px 3px rgb(0, 0, 0);
 }
 
 #infocampo span{
@@ -68,7 +68,7 @@ tbody tr{
 
 #card-info-text{
     color: white;
-    text-shadow: 2px 2px 2px black;
+    text-shadow: 2px 2px 3px black;
     margin: 15px 25px;
     font-size: 16pt;
 }
@@ -167,4 +167,16 @@ a.button button{
     margin: 5px;
     font-size: 20px;
     text-indent: 10px;
+}
+
+.rodape{
+    background-image: linear-gradient(rgb(73, 134, 73),rgb(0, 26, 9));
+    text-align: center;
+    padding: 15px 20px;
+    margin-top: 20px;
+}
+
+.rodape div{
+    color: white;
+    text-shadow: 3px 0px 2px black;
 }
