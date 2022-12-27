@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/responsivo.css">
+    <link rel="shortcut icon" href="../galeria/icons/icone7_64.png" type="image/x-icon">
+    <title>MapView - Lista de Campos</title>
+</head>
+<body onload="criarmateriais()">
+    <header class="cabecalho">
+        <h1 id="titleview">Materiais_Lista</h1>
+        <nav class="item-menu">
+            <a href="../index.html" class="navegacao">
+                <button><img src="../galeria/icons/cana_32.png" alt="" class="icon-menu"><h2>Principal</h2></button>
+            </a>
+            <a href="materiais.html" class="navegacao">
+                <button><img src="../galeria/icons/voltar2_32.png" alt="" class="icon-menu"><h2>Voltar</h2></button>
+            </a>
+        </nav>
+    </header>
+    <main>
+        <input type="text" name="" id="pesquisa" onkeyup="pesquisarTabela()" placeholder="Pesquisar">
+
+        <table id="lista_campos">
+            <thead>
+                <tr>
+                    <td class="codigo">Cód.</td>
+                    <td>Descrição</td>
+                </tr>
+            </thead>
+
+            <tbody id="lista_criar">
+
+            </tbody>
+    
+        </table>
+    </main>
+    
+
+    
+    
+</body>
+
+<script src="../script.js"></script>
+</html>

@@ -58,11 +58,18 @@
         width: 75vw;
         height: 75vh;
     }
-    #pesquisa, #caixaml{
+    #pesquisa{
         width: 100%;
+        height: 30px;
+    }
+    #caixaml{
+        width: 90%;
         height: 30px;
     }
     #lista_campos{
         width: 100%;
+    }
+    a.button-principal{
+        height: 100px;
     }
 }

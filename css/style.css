@@ -175,8 +175,27 @@ a.button button{
     padding: 15px 20px;
     margin-top: 20px;
 }
+.rodape h3{
+    font-size: 16pt;
+    margin: 0 auto 10px auto;
+}
 
 .rodape div{
     color: white;
     text-shadow: 3px 0px 2px black;
+}
+
+#conversao{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.39);
+    height: 100%;
+}
+
+#conversao input{
+    margin: 25px 0;
+}
+
+#clima{
+    position: fixed;
+    bottom: 0;
 }
