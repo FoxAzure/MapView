@@ -28,11 +28,14 @@ table thead{
     background-color: rgb(255, 152, 17);
     font-weight: bold;
     font-size: 20px;
-    height: 30px;
+    height: 40px;
 }
 
 td.codigo, td.depa{
     text-align: center;
+}
+tbody tr{
+    height: 35px;
 }
 
 #lista_campos tbody tr:hover{
@@ -149,9 +152,7 @@ a.button button{
     height: 80px;
     margin: 2px 5px;
 }
-.navegacao a{
-    
-}
+
 .navegacao button{
     width: 100%;
 
