@@ -1,5 +1,6 @@
 *{
     margin: 0; padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 main{
@@ -7,17 +8,31 @@ main{
     flex-flow: column nowrap;
     align-items: center;
 }
+#titleview{
+    font-size: 20pt;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 3px rgb(0, 0, 0);
+    margin: 10px auto;
+}
 
 #lista_campos{
     border-collapse: collapse;
     page-break-inside: auto;
     width: 100%;
-    background-color: rgb(112, 236, 154);
+    background-color: rgba(82, 177, 113, 0.8);
+    margin-bottom: 50px;
     
 }
 
 table thead{
     background-color: rgb(255, 152, 17);
+    font-weight: bold;
+    font-size: 20px;
+    height: 30px;
+}
+
+td.codigo, td.depa{
+    text-align: center;
 }
 
 #lista_campos tbody tr:hover{
@@ -26,12 +41,45 @@ table thead{
 
     cursor: pointer;
 }
-
-#infocampoa{
-    display: none;
+#card-info{
+    background-color: aquamarine;
+    text-align: center;
+    margin: 15px auto 30px auto;
+    padding: 5px;
+    border-radius: 25px;
+    border: 2px solid green;
 }
 
+#infocampo{
+    margin: 25px auto 60px auto;
+    text-align: justify;
+    text-indent: 20px;
+}
+
+#infocampo span{
+    font-weight: bold;
+}
+
+#card-info-text{
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    margin: 15px 25px;
+    font-size: 16pt;
+}
+
+#card-info-button{
+    padding: 5px 15px;
+    border-color: rgb(0, 75, 50);
+    border-radius: 15px;
+    margin: 15px;
+}
+
+
 body{
+    background-image: url('../galeria/background/background-1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
     background-color: rgb(60, 235, 139);
     margin: 0 auto;
     display: flex;
@@ -83,6 +131,10 @@ a.button button{
 .cabecalho{
     display: flex;
     flex-flow: column nowrap;
+    align-items: center;
+    align-content: center;
+    background-color: rgb(122, 206, 206);
+    width: 100vw;
 }
 .item-menu{
     display: flex;
@@ -95,9 +147,14 @@ a.button button{
 .navegacao{
     width: 120px;
     height: 80px;
+    margin: 2px 5px;
+}
+.navegacao a{
+    
 }
 .navegacao button{
     width: 100%;
+
 }
 
 #pesquisa{
@@ -105,4 +162,3 @@ a.button button{
     font-size: 20px;
     text-indent: 10px;
 }
-

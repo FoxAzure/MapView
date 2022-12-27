@@ -6,26 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/responsivo.css">
-    <title>Document</title>
+    <link rel="shortcut icon" href="../galeria/icons/icone7_64.png" type="image/x-icon">
+    <title>MapView - Nome_do_Campo</title>
 </head>
 <body onload="pegarinfo()">
-    <header>
-        <h1>View</h1>
-        <a href="../index.html">
-            <button><img src="../galeria/icons/cana_64.png" alt="">Principal</button>
-        </a>
-        <a href="campos_lista.html">
-            <button><img src="../galeria/icons/voltar2_64.png" alt="">Voltar</button>
-        </a>
+    <header class="cabecalho">
+        <h1 id="titleview">View</h1>
+        <nav class="item-menu">
+            <a href="../index.html" class="navegacao">
+                <button><img src="../galeria/icons/cana_32.png" alt="" class="icon-menu"><h2>Principal</h2></button>
+            </a>
+            <a href="campos.html" class="navegacao">
+                <button><img src="../galeria/icons/voltar2_32.png" alt="" class="icon-menu"><h2>Voltar</h2></button>
+            </a>
+        </nav>
     </header>
     <main>
         <iframe src="" frameborder="1" id="TelaView">
 
         </iframe>
-        <h2>Informações do campo</h2>
-        <button onclick="mostrarinfo()">Expandir/Ocultar</button>
-        <div id="infocampo" style="display: none">
+        <div id="card-info" style="display: none;">
+            <h2 id="card-info-text">Informações do campo</h2>
+            <button onclick="mostrarinfo()" id="card-info-button">Expandir/Ocultar</button>
+            <div id="infocampo" style="display: none">
 
+            </div>
         </div>
 
     </main>

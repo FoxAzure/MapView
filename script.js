@@ -4,7 +4,7 @@
 var campos = [
     //{codigo: "000",   nome: "Campo de Sulco 1",    fazenda: "Campo_de_Sulco_1",   depa: 1, setor: "setor1",lider: "lider1",tipo: "sul",novo: "", garantia: "",obs:"",link: "aaa",link_projeto: "aaa1"},
 
-    {codigo:   "392",   nome:   "ABARÉ",   fazenda:   "ABARÉ",depa:   1,setor:   "SALITRE",   lider:   "JOSÉ_FRANCISCO",   tipo:   "GOTEJO",   novo:   "",   garantia:   "",   obs:   "",   link:   "https://drive.google.com/file/d/1Yd_EbgFgXA4carrZiGlLjSHPvW__tM2s/preview",   link_projeto:   "https://drive.google.com/file/d/1CktH0huulsEM-oo44Cxa4eEwGTxu9eEh/preview"},
+    {codigo:   "392",   nome:   "ABARE",   fazenda:   "ABARE",depa:   1,setor:   "SALITRE",   lider:   "JOSÉ_FRANCISCO",   tipo:   "GOTEJO",   novo:   "",   garantia:   "",   obs:   "",   link:   "https://drive.google.com/file/d/1Yd_EbgFgXA4carrZiGlLjSHPvW__tM2s/preview",   link_projeto:   "https://drive.google.com/file/d/1CktH0huulsEM-oo44Cxa4eEwGTxu9eEh/preview"},
     {codigo:   "562",   nome:   "ACRE",   fazenda:   "ACRE",depa:   2,setor:   "MANICOBA",   lider:   "FRANCISCO_IVAN",   tipo:   "SULCO",   novo:   "",   garantia:   "",   obs:   "",   link:   "https://drive.google.com/file/d/1_JnkNbC7f6KS_PCzFkVfRrfdpSQk9FX7/preview",   link_projeto:   ""},
     {codigo:   "238",   nome:   "AEROPORTO I",   fazenda:   "AEROPORTO_I",depa:   1,setor:   "TIRADENTES",   lider:   "MOACIR",   tipo:   "SULCO",   novo:   "",   garantia:   "",   obs:   "",   link:   "https://drive.google.com/file/d/1K47myjEex7iuTFYhTMA9Q8qZYqK-OnvQ/preview",   link_projeto:   ""},
     {codigo:   "234",   nome:   "AEROPORTO II",   fazenda:   "AEROPORTO_II",depa:   1,setor:   "TIRADENTES",   lider:   "MOACIR",   tipo:   "SULCO",   novo:   "",   garantia:   "",   obs:   "",   link:   "https://drive.google.com/file/d/1axAHPjIN1i_YCLeajrPgjetBzSuvyu7b/preview",   link_projeto:   ""},
@@ -283,14 +283,29 @@ function pegarinfo(){
     "<p><span id='info'>Tipo irrigação: </span>" + tipo + "</p>";
 
     document.getElementById('TelaView').src = link;
+    document.title = "MapView - " + campo.replace(/_/g," ")
+    if(campo !== "geral"){
+        document.getElementById('titleview').innerHTML = "MapView - " + campo.replace(/_/g," ");
+        document.getElementById('card-info').style.display = "";
+    }else{
+        document.getElementById('titleview').innerHTML = "MapView - Planta Geral";
+        document.getElementById('card-info').style.display = "none";
+    };
+    
 
 };
 
 function plantageral(){
+    var campo = "geral"
+    localStorage.setItem("campo",campo);
     link = "https://drive.google.com/file/d/1qL7lPBefAuCery3ncHsIiiYIpmZvdGzY/preview";
     localStorage.setItem("link",link);
+    
 
-    document.getElementById('TelaView').src = link
+    document.getElementById('TelaView').src = link;
+    document.getElementById('titleview').innerHTML = "MapView - Planta Geral";
+    
+    
 };
 
 function mostrarinfo(){
@@ -308,6 +323,13 @@ var i = 0;
 function criarlista(){
 
     var tipolistacriar = localStorage.getItem("tipolista");
+
+    if (tipolistacriar === "all"){
+        txttitle = "Campos";
+    }else{
+        txttitle = tipolistacriar;
+    };
+    document.getElementById('titleview').innerHTML = "MapView - " + txttitle.replace(/_/g," ")
 
     for (i = 0;i <= campos.length - 1;i++){
         
@@ -337,20 +359,20 @@ function criarlista(){
 
             document.getElementById('lista_criar').innerHTML = tabela + 
             "<tr " + "onclick=" + "window.location='view.html',gerarview('" + linkview + "'),salvarInfo('"+ codigo_campo +"','" + fazenda + "','" + setor_campo + "','" + depa_campo + "','" + tipo_campo + "','" + lider_campo + "')>" + 
-            "<td>" + codigo_campo + "</td>" + 
+            "<td class='codigo'>" + codigo_campo + "</td>" + 
             "<td>" + nome_campo + "</td>" + 
-            "<td>" + setor_campo + "</td>" + 
-            "<td>" + "Depa " + depa_campo + "</td>";
+            "<td>" + setor_campo.replace(/_/g," ") + "</td>" + 
+            "<td class='depa'>" + "Depa " + depa_campo + "</td>";
             "</tr>"
         }else if(criarlistahtml == "all" && link_campo !==""){
             tabela = document.getElementById('lista_criar').innerHTML;
 
             document.getElementById('lista_criar').innerHTML = tabela + 
             "<tr " + "onclick=" + "window.location='view.html',gerarview('" + linkview + "'),salvarInfo('"+ codigo_campo +"','" + fazenda + "','" + setor_campo + "','" + depa_campo + "','" + tipo_campo + "','" + lider_campo + "')>" + 
-            "<td>" + codigo_campo + "</td>" + 
+            "<td class='codigo'>" + codigo_campo + "</td>" + 
             "<td>" + nome_campo + "</td>" + 
-            "<td>" + setor_campo + "</td>" + 
-            "<td>" + "Depa " + depa_campo + "</td>";
+            "<td>" + setor_campo.replace(/_/g," ") + "</td>" + 
+            "<td class='depa'>" + "Depa " + depa_campo + "</td>";
             "</tr>"
         };
         

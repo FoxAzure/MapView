@@ -6,11 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/responsivo.css">
-    <title>Document</title>
+    <link rel="shortcut icon" href="../galeria/icons/icone7_64.png" type="image/x-icon">
+    <title>MapView - Lista de Campos</title>
 </head>
 <body onload="criarlista()">
     <header class="cabecalho">
-        <h1>Campos_Lista</h1>
+        <h1 id="titleview">Campos_Lista</h1>
         <nav class="item-menu">
             <a href="../index.html" class="navegacao">
                 <button><img src="../galeria/icons/cana_32.png" alt="" class="icon-menu"><h2>Principal</h2></button>
@@ -26,10 +27,10 @@
         <table id="lista_campos">
             <thead>
                 <tr>
-                    <td>Código</td>
+                    <td class="codigo">Cód.</td>
                     <td>Campo</td>
                     <td>Setor</td>
-                    <td>Depa</td>
+                    <td class="depa">Depa</td>
                 </tr>
             </thead>
 
