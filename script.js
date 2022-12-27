@@ -362,7 +362,7 @@ function criarlista(){
             "<td class='codigo'>" + codigo_campo + "</td>" + 
             "<td>" + nome_campo + "</td>" + 
             "<td>" + setor_campo.replace(/_/g," ") + "</td>" + 
-            "<td class='depa'>" + "Depa " + depa_campo + "</td>";
+            "<td class='depa'>" + "DEPA " + depa_campo + "</td>";
             "</tr>"
         }else if(criarlistahtml == "all" && link_campo !==""){
             tabela = document.getElementById('lista_criar').innerHTML;
@@ -372,7 +372,7 @@ function criarlista(){
             "<td class='codigo'>" + codigo_campo + "</td>" + 
             "<td>" + nome_campo + "</td>" + 
             "<td>" + setor_campo.replace(/_/g," ") + "</td>" + 
-            "<td class='depa'>" + "Depa " + depa_campo + "</td>";
+            "<td class='depa'>" + "DEPA " + depa_campo + "</td>";
             "</tr>"
         };
         

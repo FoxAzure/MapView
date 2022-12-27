@@ -35,7 +35,7 @@ td.codigo, td.depa{
     text-align: center;
 }
 tbody tr{
-    height: 35px;
+    height: 40px;
 }
 
 #lista_campos tbody tr:hover{
@@ -46,6 +46,7 @@ tbody tr{
 }
 #card-info{
     background-color: aquamarine;
+    background-image: linear-gradient(rgb(73, 134, 73),rgb(0, 26, 9));
     text-align: center;
     margin: 15px auto 30px auto;
     padding: 5px;
@@ -57,6 +58,8 @@ tbody tr{
     margin: 25px auto 60px auto;
     text-align: justify;
     text-indent: 20px;
+    color: white;
+    text-shadow: 2px 0px rgb(0, 0, 0);
 }
 
 #infocampo span{
@@ -104,9 +107,10 @@ a.button-principal{
 
 button:hover{
     cursor: pointer;
-    color: rgb(0, 22, 0);
-    background-color: rgb(47, 209, 101);
+    color: rgb(250, 253, 250);
+    background-image: linear-gradient(rgb(136, 192, 136),rgb(22, 82, 43));
     border-color: rgba(12, 122, 49, 0.705);
+    box-shadow: 0px 0px 15px 3px rgb(147, 218, 162);
 }
 
 a.button-telas{
@@ -137,6 +141,7 @@ a.button button{
     align-items: center;
     align-content: center;
     background-color: rgb(122, 206, 206);
+    background-image: linear-gradient(rgb(73, 134, 73),rgb(0, 26, 9));
     width: 100vw;
 }
 .item-menu{
