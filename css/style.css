@@ -7,6 +7,8 @@ main{
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
+    box-sizing: border-box;
+    
 }
 #titleview{
     font-size: 20pt;
@@ -102,7 +104,7 @@ body{
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
-    box-sizing: border-box;
+
 }
 a{
     text-decoration: none;
@@ -156,7 +158,8 @@ a.button button{
     align-content: center;
     background-color: rgb(122, 206, 206);
     background-image: linear-gradient(rgb(73, 134, 73),rgb(0, 26, 9));
-    width: 100vw;
+    width: 100%;
+    box-sizing: border-box;
 }
 .item-menu{
     display: flex;
@@ -221,4 +224,29 @@ a.button button{
     width: 100%;
     margin: 0 auto;
     text-align: center;
+}
+#sobre{
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#sobre h2{
+    padding: 20px 0;
+    color: white;
+    text-shadow: 4px 0px 3px black;
+}
+
+#sobre div{
+    width: 80%;
+    color: white;
+    font-size: 12pt;
+    background-image: linear-gradient(rgb(73, 134, 73),rgb(0, 26, 9));
+    padding: 25px 30px;
+}
+
+#sobre p{
+    margin: 10px auto;
 }
