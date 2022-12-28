@@ -290,14 +290,19 @@ function pegarinfo(){
     }else{
         document.getElementById('titleview').innerHTML = "MapView - Planta Geral";
         document.getElementById('card-info').style.display = "none";
+        document.title = "MapView - Planta Geral";
     };
     
 
 };
 
 function plantageral(){
+    var tipolista  = "all"
     var campo = "geral"
+    
+    localStorage.setItem("tipolista",tipolista);
     localStorage.setItem("campo",campo);
+
     link = "https://drive.google.com/file/d/1qL7lPBefAuCery3ncHsIiiYIpmZvdGzY/preview";
     localStorage.setItem("link",link);
     
@@ -323,6 +328,7 @@ var i = 0;
 function criarlista(){
 
     var tipolistacriar = localStorage.getItem("tipolista");
+    
 
     if (tipolistacriar === "all"){
         txttitle = "Campos";
@@ -330,6 +336,7 @@ function criarlista(){
         txttitle = tipolistacriar;
     };
     document.getElementById('titleview').innerHTML = "MapView - " + txttitle.replace(/_/g," ")
+    document.title = "MapView - " + txttitle;
 
     for (i = 0;i <= campos.length - 1;i++){
         
@@ -1708,6 +1715,9 @@ var materiais = [
 function criarmateriais(){
 
     var tipo_lista = localStorage.getItem("tipolista");
+
+    document.getElementById('titleview').innerHTML = "Lista - " + tipo_lista;
+    document.title = "MapView - " + tipo_lista;
 
     for (i = 0;i <= materiais.length - 1;i++){
         var material_cod        =   materiais[i].codigo;
