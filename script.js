@@ -1732,7 +1732,6 @@ function criarmateriais(){
 
 var atividades = [
     {codigo: 5,descricao: "ABERTURA DE CANAIS E DRENOS PREP SOLO"},
-    {codigo: 1000,descricao: "ADICIONAL DE HORAS EXTRAS - 50% S/ PRODUCAO"},
     {codigo: 174,descricao: "ADUBACAO MANUAL FUND IRRIG PLANTIO CONV"},
     {codigo: 173,descricao: "ADUBACAO MANUAL FUND IRRIG PLANTIO GOT"},
     {codigo: 347,descricao: "ADUBACAO MANUAL PLANTA FOLIAR "},
