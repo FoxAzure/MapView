@@ -2,7 +2,7 @@
 
 @media only screen and (max-width: 480px) {
     body{
-        background-color: rgb(235, 121, 121);
+        /*background-color: rgb(235, 121, 121);*/
         display: flex;
         flex-flow: column nowrap;
         align-content: center;
@@ -25,9 +25,6 @@
 }
 
 @media only screen and (min-width: 481px) and (max-width: 1024px) {
-    body{
-        background-color: rgb(70, 116, 216);
-    }
     main{
         margin: 5px;
         min-width: 485px;
@@ -47,9 +44,6 @@
 }
 
 @media only screen and (min-width: 1025px) {
-    body{
-        background-color: rgb(209, 236, 91);
-    }
     main{
         margin: 5px;
         min-width: 600px;

@@ -360,7 +360,7 @@ function criarlista(){
             document.getElementById('lista_criar').innerHTML = tabela + 
             "<tr " + "onclick=" + "window.location='view.html',gerarview('" + linkview + "'),salvarInfo('"+ codigo_campo +"','" + fazenda + "','" + setor_campo + "','" + depa_campo + "','" + tipo_campo + "','" + lider_campo + "')>" + 
             "<td class='codigo'>" + codigo_campo + "</td>" + 
-            "<td>" + nome_campo + "</td>" + 
+            "<td class='campo'>" + nome_campo + "</td>" + 
             "<td>" + setor_campo.replace(/_/g," ") + "</td>" + 
             "<td class='depa'>" + "DEPA " + depa_campo + "</td>";
             "</tr>"
@@ -370,7 +370,7 @@ function criarlista(){
             document.getElementById('lista_criar').innerHTML = tabela + 
             "<tr " + "onclick=" + "window.location='view.html',gerarview('" + linkview + "'),salvarInfo('"+ codigo_campo +"','" + fazenda + "','" + setor_campo + "','" + depa_campo + "','" + tipo_campo + "','" + lider_campo + "')>" + 
             "<td class='codigo'>" + codigo_campo + "</td>" + 
-            "<td>" + nome_campo + "</td>" + 
+            "<td class='campo'>" + nome_campo + "</td>" + 
             "<td>" + setor_campo.replace(/_/g," ") + "</td>" + 
             "<td class='depa'>" + "DEPA " + depa_campo + "</td>";
             "</tr>"
@@ -1719,13 +1719,49 @@ function criarmateriais(){
 
             document.getElementById('lista_criar').innerHTML = tabela +
             "<tr>" + 
-            "<td class='codigo'>" + material_cod + "</td>" + 
-            "<td>" + material_desc.replace(/_/g," ") + "</td>" + 
+            "<td class='codigo outros'>" + material_cod + "</td>" + 
+            "<td class='descri'>" + material_desc.replace(/_/g," ") + "</td>" + 
             "</tr>"
         };
     };
 };
 
+//==========================================================================
+//BANCO DE DADOS ATIVIDADES
+//==========================================================================
+
+var atividades = [
+    {codigo: "000", descricao: "aaa"},
+    {codigo: "000", descricao: "aaab"},
+    {codigo: "000", descricao: "aaac"},
+    {codigo: "000", descricao: "aaaddda"},
+    {codigo: "000", descricao: "aaae"},
+    {codigo: "000", descricao: "aad"},
+    {codigo: "000", descricao: "aaaafa"},
+    {codigo: "000", descricao: "aaaaga"},
+    {codigo: "000", descricao: "aaaaha"},
+    {codigo: "000", descricao: "aaaaiaaaa"},
+    {codigo: "000", descricao: "aaaja"}
+];
+//==========================================================================
+
+function listaatividades(){
+
+    for(i=0;i<=atividades.length - 1; i++){
+
+        var cod_atividade   =   atividades[i].codigo;
+        var decr_atividade  =   atividades[i].descricao;
+
+        var tabela = document.getElementById('lista_criar').innerHTML;
+
+        document.getElementById('lista_criar').innerHTML = tabela +
+        "<tr>" + 
+        "<td class='codigo outros'>" + cod_atividade + "</td>" + 
+        "<td class='descri'>" + decr_atividade.replace(/_/g," ") + "</td>" + 
+        "</tr>"
+    };
+
+};
 
 
 //==========================================================================
