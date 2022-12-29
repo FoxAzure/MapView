@@ -8,6 +8,32 @@
         align-content: center;
         align-items: center;
     }
+    #principal{
+        background-image: url('../galeria/background/background-5.jpeg');
+        background-position: center;
+        background-size: cover;
+
+    }
+    #materiais{
+        background-image: url('../galeria/background/background-7.jpeg');
+        background-position: center;
+        background-size: cover;
+    }
+    #atividade{
+        background-image: url('../galeria/background/background-6.jpeg');
+        background-position: center;
+        background-size: cover;
+    }
+    #conversor{
+        background-image: url('../galeria/background/background-1.jpg');
+        background-position: center;
+        background-size: cover;
+    }
+    #campos{
+        background-image: url('../galeria/background/background-1.jpg');
+        background-position: center;
+        background-size: cover;
+    }
     main{
         margin: 5px;
         min-width: 340px;
@@ -25,6 +51,32 @@
 }
 
 @media only screen and (min-width: 481px) and (max-width: 1024px) {
+    #principal{
+        background-image: url('../galeria/background/background-5.jpeg');
+        background-position: center;
+        background-size: cover;
+
+    }
+    #materiais{
+        background-image: url('../galeria/background/background-7.jpeg');
+        background-position: center;
+        background-size: cover;
+    }
+    #atividade{
+        background-image: url('../galeria/background/background-6.jpeg');
+        background-position: center;
+        background-size: cover;
+    }
+    #conversor{
+        background-image: url('../galeria/background/background-1.jpg');
+        background-position: center;
+        background-size: cover;
+    }
+    #campos{
+        background-image: url('../galeria/background/background-1.jpg');
+        background-position: center;
+        background-size: cover;
+    }
     main{
         margin: 5px;
         min-width: 485px;
@@ -44,6 +96,31 @@
 }
 
 @media only screen and (min-width: 1025px) {
+    #principal{
+        background-image: url('../galeria/background/background-5.jpeg');
+        background-position: center;
+        background-size: 100%;
+    }
+    #materiais{
+        background-image: url('../galeria/background/background-7.jpeg');
+        background-position: center;
+        background-size: 100%;
+    }
+    #atividade{
+        background-image: url('../galeria/background/background-6.jpeg');
+        background-position: center;
+        background-size: 100%;
+    }
+    #conversor{
+        background-image: url('../galeria/background/background-1.jpg');
+        background-position: center;
+        background-size: 100%;
+    }
+    #campos{
+        background-image: url('../galeria/background/background-1.jpg');
+        background-position: center;
+        background-size: 100%;
+    }
     main{
         margin: 5px;
         min-width: 600px;
