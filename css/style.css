@@ -193,6 +193,7 @@ a.button button{
     margin-top: 25px;
     position: relative;
     bottom: 0;
+    width: 100%;
 }
 .rodape h3{
     font-size: 16pt;
@@ -202,6 +203,9 @@ a.button button{
 .rodape div{
     color: white;
     text-shadow: 3px 0px 2px black;
+}
+.rodape a img{
+    padding: 10px;
 }
 
 #conversao{
@@ -248,4 +252,14 @@ a.button button{
 
 #sobre p{
     margin: 10px auto;
+}
+
+.data_atualizada{
+    text-align: left;
+    padding: 10px;
+    width: 100%;
+    border-bottom: 2px solid white;
+    font-size: 11pt;
+    color: rgb(169, 255, 162);
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
 }

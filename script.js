@@ -4,7 +4,7 @@
 var campos = [
     //{codigo: "000",   nome: "Campo de Sulco 1",    fazenda: "Campo_de_Sulco_1",   depa: 1, setor: "setor1",lider: "lider1",tipo: "sul",novo: "", garantia: "",obs:"",link: "aaa",link_projeto: "aaa1"},
 
-    {codigo:   "392",   nome:   "ABARE",   fazenda:   "ABARE",depa:   1,setor:   "SALITRE",   lider:   "JOSÉ_FRANCISCO",   tipo:   "GOTEJO",   novo:   "",   garantia:   "",   obs:   "",   link:   "https://drive.google.com/file/d/1Yd_EbgFgXA4carrZiGlLjSHPvW__tM2s/preview",   link_projeto:   "https://drive.google.com/file/d/1CktH0huulsEM-oo44Cxa4eEwGTxu9eEh/preview"},
+    {codigo:   "392",   nome:   "ABARÉ",   fazenda:   "ABARÉ",depa:   1,setor:   "SALITRE",   lider:   "JOSÉ_FRANCISCO",   tipo:   "GOTEJO",   novo:   "",   garantia:   "",   obs:   "",   link:   "https://drive.google.com/file/d/1Yd_EbgFgXA4carrZiGlLjSHPvW__tM2s/preview",   link_projeto:   "https://drive.google.com/file/d/1CktH0huulsEM-oo44Cxa4eEwGTxu9eEh/preview"},
     {codigo:   "562",   nome:   "ACRE",   fazenda:   "ACRE",depa:   2,setor:   "MANICOBA",   lider:   "FRANCISCO_IVAN",   tipo:   "SULCO",   novo:   "",   garantia:   "",   obs:   "",   link:   "https://drive.google.com/file/d/1_JnkNbC7f6KS_PCzFkVfRrfdpSQk9FX7/preview",   link_projeto:   ""},
     {codigo:   "238",   nome:   "AEROPORTO I",   fazenda:   "AEROPORTO_I",depa:   1,setor:   "TIRADENTES",   lider:   "MOACIR",   tipo:   "SULCO",   novo:   "",   garantia:   "",   obs:   "",   link:   "https://drive.google.com/file/d/1K47myjEex7iuTFYhTMA9Q8qZYqK-OnvQ/preview",   link_projeto:   ""},
     {codigo:   "234",   nome:   "AEROPORTO II",   fazenda:   "AEROPORTO_II",depa:   1,setor:   "TIRADENTES",   lider:   "MOACIR",   tipo:   "SULCO",   novo:   "",   garantia:   "",   obs:   "",   link:   "https://drive.google.com/file/d/1axAHPjIN1i_YCLeajrPgjetBzSuvyu7b/preview",   link_projeto:   ""},
@@ -105,7 +105,7 @@ var campos = [
     {codigo:   "338",   nome:   "INDIANAPOLIS",   fazenda:   "INDIANAPOLIS",depa:   2,setor:   "SAO_MIGUEL",   lider:   "ADEVANDO_MACEDO",   tipo:   "GOTEJO",   novo:   "",   garantia:   "",   obs:   "",   link:   "https://drive.google.com/file/d/1Om-0g4U2YAEDi5eJQ8yTltSGiY5_eDvR/preview",   link_projeto:   "https://drive.google.com/file/d/1muHaIv0tRmjx6_u--x7gcAYZ1ruNHEFv/preview"},
     {codigo:   "642",   nome:   "INDIANAPOLIS B",   fazenda:   "INDIANAPOLIS_B",depa:   2,setor:   "SAO_MIGUEL",   lider:   "ADEVANDO_MACEDO",   tipo:   "GOTEJO",   novo:   "",   garantia:   "",   obs:   "",   link:   "https://drive.google.com/file/d/1I--Tr7ix7rQoD7gOjMxNoInBiYZ5w5G1/preview",   link_projeto:   "https://drive.google.com/file/d/1a9MOZkDl_aleIfLuH4uGiYXoiL2qteix/preview"},
     {codigo:   "341",   nome:   "IPOJUCA",   fazenda:   "IPOJUCA",depa:   2,setor:   "PERNAMBUCO",   lider:   "PEDRO_HENRIQUE",   tipo:   "GOTEJO",   novo:   "",   garantia:   "",   obs:   "",   link:   "https://drive.google.com/file/d/1CVovzQL-Lslov9oPmFAbf94iED5QqvOl/preview",   link_projeto:   "https://drive.google.com/file/d/1PJTV3phksb-bR9M8RX41HDpmrV9ha2Sn/preview"},
-    {codigo:   "402",   nome:   "IRECE",   fazenda:   "IRECE",depa:   1,setor:   "SALITRE",   lider:   "JOSÉ_FRANCISCO",   tipo:   "SULCO",   novo:   "",   garantia:   "",   obs:   "",   link:   "",   link_projeto:   ""},
+    {codigo:   "402",   nome:   "IRECE",   fazenda:   "IRECE",depa:   1,setor:   "SALITRE",   lider:   "JOSÉ_FRANCISCO",   tipo:   "SULCO",   novo:   "",   garantia:   "",   obs:   "",   link:   "https://drive.google.com/file/d/1fESKF8tZrlS_JbzDOaimDLWhdUoky6th/preview",   link_projeto:   ""},
     {codigo:   "231",   nome:   "ITABUNA A",   fazenda:   "ITABUNA_A",depa:   1,setor:   "GUARARAPES",   lider:   "ANDREY_VANDERSON",   tipo:   "GOTEJO",   novo:   "",   garantia:   "",   obs:   "",   link:   "https://drive.google.com/file/d/1GIIECjkHnrWu36tm0iEZEjRfsKyyiHBB/preview",   link_projeto:   "https://drive.google.com/file/d/1dqeDcQ2Qun5rWvb45Zd6NBgSJrGi7o7d/preview"},
     {codigo:   "128",   nome:   "ITALIA",   fazenda:   "ITALIA",depa:   1,setor:   "LAGINHA",   lider:   "RIVELINO",   tipo:   "SULCO",   novo:   "",   garantia:   "",   obs:   "",   link:   "https://drive.google.com/file/d/1Ifg964QQ7A8TdHZZG7oUOQo2yUmrhlx_/preview",   link_projeto:   ""},
     {codigo:   "357",   nome:   "ITAMARACA",   fazenda:   "ITAMARACA",depa:   2,setor:   "PERNAMBUCO",   lider:   "PEDRO_HENRIQUE",   tipo:   "POLITUBO",   novo:   "",   garantia:   "",   obs:   "",   link:   "https://drive.google.com/file/d/1lQO6sGay8j82GEOU_3QtF5CZWwphMobC/preview",   link_projeto:   ""},
@@ -172,6 +172,9 @@ var campos = [
     {codigo:   "554",   nome:   "PIAUI",   fazenda:   "PIAUI",depa:   2,setor:   "MANICOBA",   lider:   "INDERLANDIO",   tipo:   "SULCO",   novo:   "",   garantia:   "",   obs:   "",   link:   "https://drive.google.com/file/d/1CyfOmYdr7AtpI_yDxCtO9hGvPNP2HsC6/preview",   link_projeto:   ""},
     {codigo:   "130",   nome:   "PICOS",   fazenda:   "PICOS",depa:   1,setor:   "PANCARAUY",   lider:   "RAMON_SPILBERG",   tipo:   "GOTEJO",   novo:   "",   garantia:   "",   obs:   "",   link:   "https://drive.google.com/file/d/1LJ60H6_lHPAzL5dMtrkLd6yWW-XD1CY3/preview",   link_projeto:   "https://drive.google.com/file/d/16Ti6rVoIzjs8e5r03L7DACV7bE8r0iwp/preview"},
     {codigo:   "178",   nome:   "PILAR",   fazenda:   "PILAR",depa:   1,setor:   "PANCARAUY",   lider:   "RAMON_SPILBERG",   tipo:   "GOTEJO",   novo:   "",   garantia:   "",   obs:   "",   link:   "https://drive.google.com/file/d/1sqN2sElYoPhVrU6sd-dDtcC-FZnNPSEO/preview",   link_projeto:   "https://drive.google.com/file/d/1P8ifiSktw8CxyWw0XZoE5zXz8xVdfTgs/preview"},
+    {codigo:   "404",   nome:   "PIVO 26",   fazenda:   "PIVO_26",depa:   1,setor:   "SALITRE",   lider:   "JOSÉ_FRANCISCO",   tipo:   "PIVOT",   novo:   "",   garantia:   "",   obs:   "",   link:   "https://drive.google.com/file/d/1QiwBJlW9gmHmMxSFEQBRULV8vRFBLtl1/preview",   link_projeto:   ""},
+    {codigo:   "405",   nome:   "PIVO 27",   fazenda:   "PIVO_27",depa:   1,setor:   "SALITRE",   lider:   "JOSÉ_FRANCISCO",   tipo:   "PIVOT",   novo:   "",   garantia:   "",   obs:   "",   link:   "https://drive.google.com/file/d/1WHLw12ZCQU3eWfx3ROS2R3IL8PVTbEy1/preview",   link_projeto:   ""},
+    {codigo:   "406",   nome:   "PIVO 28",   fazenda:   "PIVO_28",depa:   1,setor:   "SALITRE",   lider:   "JOSÉ_FRANCISCO",   tipo:   "PIVOT",   novo:   "",   garantia:   "",   obs:   "",   link:   "https://drive.google.com/file/d/1v0HKW8HRRBZmNo60y5DYYZ7vyey0eKA3/preview",   link_projeto:   ""},
     {codigo:   "567",   nome:   "PIVOT CENT 14",   fazenda:   "PIVOT_CENT_14",depa:   2,setor:   "MANICOBA",   lider:   "INDERLANDIO",   tipo:   "PIVOT",   novo:   "",   garantia:   "",   obs:   "",   link:   "https://drive.google.com/file/d/1w6zN-jcDAEhBV7MAzAT0nck-lopCmPPs/preview",   link_projeto:   ""},
     {codigo:   "565",   nome:   "PIVOT CENT 15",   fazenda:   "PIVOT_CENT_15",depa:   2,setor:   "MANICOBA",   lider:   "INDERLANDIO",   tipo:   "PIVOT",   novo:   "",   garantia:   "",   obs:   "",   link:   "https://drive.google.com/file/d/1N7ejG8fdUHuYyKF4nLyy2jkv4pbD_nIl/preview",   link_projeto:   ""},
     {codigo:   "568",   nome:   "PIVOT CENT 16",   fazenda:   "PIVOT_CENT_16",depa:   2,setor:   "MANICOBA",   lider:   "INDERLANDIO",   tipo:   "PIVOT",   novo:   "",   garantia:   "",   obs:   "",   link:   "https://drive.google.com/file/d/1yuTlH-vcRkY35yvYTLMoT3lC5XsjI6Sm/preview",   link_projeto:   ""},
@@ -214,8 +217,10 @@ var campos = [
     {codigo:   "505",   nome:   "SAO SEBASTIAO",   fazenda:   "SAO_SEBASTIAO",depa:   2,setor:   "CAXANGA",   lider:   "ANDERSON_FRANÇA",   tipo:   "GOTEJO",   novo:   "",   garantia:   "",   obs:   "",   link:   "https://drive.google.com/file/d/1GlssEQ_XiYBo2OIaHbs8M4LcVWydKTvC/preview",   link_projeto:   "https://drive.google.com/file/d/1od2hlmm5pJZgEqV9DM7jYLfAO-qCeryY/preview"},
     {codigo:   "184",   nome:   "SATUBA",   fazenda:   "SATUBA",depa:   1,setor:   "PANCARAUY",   lider:   "RAMON_SPILBERG",   tipo:   "GOTEJO",   novo:   "",   garantia:   "",   obs:   "",   link:   "https://drive.google.com/file/d/1kxuAPdZ9dFmc4FPOInTV3fVzaEzJeiWY/preview",   link_projeto:   "https://drive.google.com/file/d/1c2m13_wiH3CTXX__O21-PrugmOOBuf4J/preview"},
     {codigo:   "318",   nome:   "SAVANNAH",   fazenda:   "SAVANNAH",depa:   2,setor:   "SAO_MIGUEL",   lider:   "JOSÉ_WILTON",   tipo:   "SULCO",   novo:   "",   garantia:   "",   obs:   "",   link:   "https://drive.google.com/file/d/1pX_wKxDP54LBp7EgWkBs7mGeD91BzdM-/preview",   link_projeto:   ""},
+    {codigo:   "407",   nome:   "SENTO SE",   fazenda:   "SENTO_SE",depa:   1,setor:   "SALITRE",   lider:   "JOSÉ_FRANCISCO",   tipo:   "SULCO",   novo:   "",   garantia:   "",   obs:   "",   link:   "https://drive.google.com/file/d/160ThlCEhBEC11nYqjKhaYAIc11mL6GiS/preview",   link_projeto:   ""},
     {codigo:   "552",   nome:   "SERGIPE",   fazenda:   "SERGIPE",depa:   2,setor:   "MANICOBA",   lider:   "FRANCISCO_IVAN",   tipo:   "SULCO",   novo:   "",   garantia:   "",   obs:   "",   link:   "https://drive.google.com/file/d/1YmL4a8mHYZIB5cZE_ZAwKygRTCG4ygWQ/preview",   link_projeto:   ""},
     {codigo:   "372",   nome:   "SERRA TALHADA",   fazenda:   "SERRA_TALHADA",depa:   2,setor:   "PERNAMBUCO",   lider:   "JOSÉ_GABRIEL",   tipo:   "POLITUBO",   novo:   "",   garantia:   "",   obs:   "",   link:   "https://drive.google.com/file/d/1-eKJJaxGHVNYX_m3FF4YjguWpZb8dsI4/preview",   link_projeto:   ""},
+    {codigo:   "403",   nome:   "SERRINHA",   fazenda:   "SERRINHA",depa:   1,setor:   "SALITRE",   lider:   "JOSÉ_FRANCISCO",   tipo:   "SULCO",   novo:   "",   garantia:   "",   obs:   "",   link:   "https://drive.google.com/file/d/1UsE_GQkWBkRg84QTJoRMBYMBCYdCFinJ/preview",   link_projeto:   ""},
     {codigo:   "396",   nome:   "SERTANIA",   fazenda:   "SERTANIA",depa:   2,setor:   "PERNAMBUCO",   lider:   "IGOR_LINO",   tipo:   "GOTEJO",   novo:   "",   garantia:   "",   obs:   "",   link:   "https://drive.google.com/file/d/1uOn_5wEQUCZyU2vRKeOQIVjRLPtATM54/preview",   link_projeto:   "https://drive.google.com/file/d/16YjOlEB7EoH--f8yYxKcTBEjICIclfoE/preview"},
     {codigo:   "391",   nome:   "SOBRADINHO",   fazenda:   "SOBRADINHO",depa:   1,setor:   "SALITRE",   lider:   "JOSÉ_FRANCISCO",   tipo:   "GOTEJO",   novo:   "",   garantia:   "",   obs:   "",   link:   "https://drive.google.com/file/d/1LCdSNhqm1TuAUmg0d_XhjGE07d9Jq0-b/preview",   link_projeto:   "https://drive.google.com/file/d/1fKeapO0m1dHcZRWF7IHXG6axW0SzKbXH/preview"},
     {codigo:   "629",   nome:   "SUECIA",   fazenda:   "SUECIA",depa:   1,setor:   "LAGINHA",   lider:   "JORGE_ALVES",   tipo:   "POLITUBO",   novo:   "",   garantia:   "",   obs:   "",   link:   "https://drive.google.com/file/d/1rOhZ017SVqy5Eq4Lj4tSm1-vNa8edgar/preview",   link_projeto:   ""},
@@ -243,7 +248,7 @@ var campos = [
     {codigo:   "650",   nome:   "VIRGINIA",   fazenda:   "VIRGINIA",depa:   2,setor:   "SAO_MIGUEL",   lider:   "ADEVANDO_MACEDO",   tipo:   "GOTEJO",   novo:   "",   garantia:   "",   obs:   "",   link:   "https://drive.google.com/file/d/11lpa1NqbaGlPkWlWcNNOdfN9RnaOjKfG/preview",   link_projeto:   "https://drive.google.com/file/d/11HqhyF5KUTZTCNwMkLEqQrwm5QQ90uKQ/preview"},
     {codigo:   "134",   nome:   "WASHINGTON",   fazenda:   "WASHINGTON",depa:   1,setor:   "PANCARAUY",   lider:   "RAMON_SPILBERG",   tipo:   "GOTEJO",   novo:   "",   garantia:   "",   obs:   "",   link:   "https://drive.google.com/file/d/1e182mb7Q9R63ZyCUFekLy4CAGmusD3Fa/preview",   link_projeto:   "https://drive.google.com/file/d/198UwK7X1suMpWKDhhr2BVoNFnZv7vUid/preview"},
     {codigo:   "631",   nome:   "YUGUSLAVIA",   fazenda:   "YUGUSLAVIA",depa:   1,setor:   "LAGINHA",   lider:   "JORGE_ALVES",   tipo:   "POLITUBO",   novo:   "",   garantia:   "",   obs:   "",   link:   "https://drive.google.com/file/d/1I_SdYFKu13CoKh0HiNR-iFy6l_smBGpc/preview",   link_projeto:   ""},
-
+    
 
 ];
 
@@ -2351,5 +2356,34 @@ function alterar(){
     var nomeCAMPO = localStorage.getItem("NameCampo");
     telaview.src = linkIMG
     infocampo.innerHTML = codCampo + nomeCAMPO;
+    
+}
+
+
+
+
+
+
+var colecao_atualizacao = [
+    {data:"17/01/2023", responsavel: "Paulo Roberto", descricao: "Inclusão dos campos: IRECE, PIVO 26, PIVO 27, PIVO 28, SENTO SE e SERRINHA"},
+    {data:"17/01/2023", responsavel: "Paulo Roberto", descricao: "Atualização da interface"},
+]
+
+function atualizacao(){
+    var atualizar,todas_atualizacoes,data,descricao;
+    atualizar = document.querySelector("#tela-atualizações");
+
+    todas_atualizacoes = "";
+
+    for(i=0;i<=colecao_atualizacao.length;i++){
+        data = colecao_atualizacao[i].data;
+        descricao = colecao_atualizacao[i].descricao;
+        responsavel = colecao_atualizacao[i].responsavel;
+
+        todas_atualizacoes = "<p>" + descricao + "</p>" + "<p class='data_atualizada'>"+ data + " - " + responsavel +"</p>" + todas_atualizacoes;
+        atualizar.innerHTML = todas_atualizacoes;
+    }
+    
+    
     
 }
