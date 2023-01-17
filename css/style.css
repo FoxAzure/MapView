@@ -194,6 +194,7 @@ a.button button{
     position: relative;
     bottom: 0;
     width: 100%;
+    box-sizing: border-box;
 }
 .rodape h3{
     font-size: 16pt;
