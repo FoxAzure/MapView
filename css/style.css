@@ -305,3 +305,16 @@ a.button button{
 button{
     background-color: rgb(177, 220, 255);
 }
+
+
+.anuncio-pequeno{
+    width: 100%;
+    height: 50px;
+    margin: 20px auto;
+}
+
+.anuncio-grande{
+    width: 100%;
+    height: 250px;
+    margin: 20px auto;
+}
