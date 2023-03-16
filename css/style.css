@@ -20,30 +20,38 @@ main{
 #lista_campos{
     border-collapse: collapse;
     page-break-inside: auto;
-    width: 100%;
-    background-color: rgba(82, 177, 113, 0.8);
+    max-width: 100%;
+    background-color: rgba(137, 170, 233, 0.8);
     margin-bottom: 50px;
+
     
 }
 
 table thead{
-    background-color: rgb(255, 152, 17);
+    /*background-color: rgb(255, 152, 17);*/
+    background-image: linear-gradient(rgb(52, 95, 150),rgb(0, 8, 46));
+    color: white;
     font-weight: bold;
     font-size: 20px;
     height: 40px;
+
 }
 
 td.codigo, td.depa{
     text-align: center;
+
 }
 td.codigo{
     font-weight: bold;
+
 }
 td.outros{
     padding: 10px;
+
 }
 td.descri{
     padding: 10px 25px;
+
 }
 
 
@@ -53,18 +61,19 @@ tbody tr{
 
 #lista_campos tbody tr:hover{
     color: rgb(255, 255, 255);
-    background-color: rgb(3, 54, 20);
+    background-image: linear-gradient(rgb(84, 132, 194),rgb(20, 37, 122));
 
     cursor: pointer;
 }
 #card-info{
     background-color: aquamarine;
-    background-image: linear-gradient(rgb(73, 134, 73),rgb(0, 26, 9));
+    background-image: linear-gradient(rgb(52, 95, 150),rgb(0, 8, 46));
+    /*background-image: linear-gradient(rgb(73, 134, 73),rgb(0, 26, 9));*/
     text-align: center;
     margin: 15px auto 30px auto;
     padding: 5px;
     border-radius: 25px;
-    border: 2px solid green;
+    border: 4px solid rgb(2, 16, 82);
 }
 
 #infocampo{
@@ -72,7 +81,7 @@ tbody tr{
     text-align: justify;
     text-indent: 20px;
     color: white;
-    text-shadow: 3px 0px 3px rgb(0, 0, 0);
+    text-shadow: 3px 2px 3px rgb(0, 0, 0);
 }
 
 #infocampo span{
@@ -116,13 +125,15 @@ a.button{
 
 a.button-principal{
     height: 120px;
+    
 }
 
 button:hover{
     cursor: pointer;
     color: rgb(250, 253, 250);
-    background-image: linear-gradient(rgb(136, 192, 136),rgb(22, 82, 43));
-    border-color: rgba(12, 122, 49, 0.705);
+    background-image: linear-gradient(rgb(52, 95, 150),rgb(0, 8, 46));
+    /*background-image: linear-gradient(rgb(136, 192, 136),rgb(22, 82, 43));*/
+    border-color: rgba(64, 91, 241, 0.705);
     box-shadow: 0px 0px 15px 3px rgb(147, 218, 162);
 }
 
@@ -156,7 +167,8 @@ a.button button{
     align-items: center;
     align-content: center;
     background-color: rgb(122, 206, 206);
-    background-image: linear-gradient(rgb(73, 134, 73),rgb(0, 26, 9));
+    background-image: linear-gradient(rgb(52, 95, 150),rgb(0, 8, 46));
+    /*background-image: linear-gradient(rgb(73, 134, 73),rgb(0, 26, 9));*/
     width: 100%;
     box-sizing: border-box;
 }
@@ -187,7 +199,8 @@ a.button button{
 }
 
 .rodape{
-    background-image: linear-gradient(rgb(73, 134, 73),rgb(0, 26, 9));
+    background-image: linear-gradient(rgb(52, 95, 150),rgb(0, 8, 46));
+    /*background-image: linear-gradient(rgb(73, 134, 73),rgb(0, 26, 9));*/
     text-align: center;
     padding: 15px 20px;
     margin-top: 25px;
@@ -247,7 +260,8 @@ a.button button{
     width: 80%;
     color: white;
     font-size: 12pt;
-    background-image: linear-gradient(rgb(73, 134, 73),rgb(0, 26, 9));
+    background-image: linear-gradient(rgb(52, 95, 150),rgb(0, 8, 46));
+    /*background-image: linear-gradient(rgb(73, 134, 73),rgb(0, 26, 9));*/
     padding: 25px 30px;
 }
 
@@ -263,4 +277,31 @@ a.button button{
     font-size: 11pt;
     color: rgb(169, 255, 162);
     text-shadow: 2px 2px 2px rgb(0, 0, 0);
+}
+
+
+.objet_custo_mec{
+    box-sizing: border-box;
+    width: 100%;
+    height: 200px;
+    max-width: 600px;
+    overflow-x: scroll;
+    
+    display: flex;
+    flex-flow: column nowrap;
+}
+#lista_obj{
+    border-collapse: collapse;
+    background-color: rgba(24, 115, 151, 0.623);
+}
+#lista_criar_obj tr:hover{
+    background-color: rgb(104, 253, 203);
+    
+    
+
+}
+
+
+button{
+    background-color: rgb(177, 220, 255);
 }

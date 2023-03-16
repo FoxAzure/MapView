@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/responsivo.css">
+    <link rel="shortcut icon" href="../galeria/icons/icone7_64.png" type="image/x-icon">
+    <title>MapView - Listas Atividades</title>
+</head>
+<body onload="listaatividades()" id="atividade">
+    <header class="cabecalho">
+        <h1 id="titleview">Atividades Mecanizada</h1>
+        <nav class="item-menu">
+            <a href="../index.html" class="navegacao">
+                <button><img src="../galeria/icons/cana_32.png" alt="" class="icon-menu"><h2>Principal</h2></button>
+            </a>
+            <a href="atividades.html" class="navegacao">
+                <button><img src="../galeria/icons/voltar2_32.png" alt="" class="icon-menu"><h2>Voltar</h2></button>
+            </a>
+        </nav>
+    </header>
+    <main>
+        <h2>Objeto de Custo</h2>
+        <p>5 - ABERTURA DE CANAIS E DRENOS PREP SOLO</p>
+        <div class="objet_custo_mec">
+            <table id="lista_obj">
+                <thead>
+                    <tr>
+                        <td class="codigo">Cód.</td>
+                        <td class="descri">Descrição</td>
+                    </tr>
+                </thead>
+    
+                <tbody id="lista_criar_obj">
+                    <tr>
+                        <td class="codigo">Cód.</td>
+                        <td class="descri">Descrição</td>
+                    </tr>
+                    <tr>
+                        <td class="codigo">Cód.</td>
+                        <td class="descri">Descrição</td>
+                    </tr>
+                    <tr>
+                        <td class="codigo">Cód.</td>
+                        <td class="descri">Descrição</td>
+                    </tr>
+                    <tr>
+                        <td class="codigo">Cód.</td>
+                        <td class="descri">Descrição</td>
+                    </tr>
+                    <tr>
+                        <td class="codigo">Cód.</td>
+                        <td class="descri">Descrição</td>
+                    </tr>
+                    <tr>
+                        <td class="codigo">Cód.</td>
+                        <td class="descri">Descrição</td>
+                    </tr>
+
+            </table>
+        </tbody>
+        </div>
+
+        <h2>Atividade</h2>
+        <input type="text" name="" id="pesquisa" onkeyup="pesquisarTabela()" placeholder="Pesquisar">
+
+        <table id="lista_campos">
+            <thead>
+                <tr>
+                    <td class="codigo">Cód.</td>
+                    <td class="descri">Descrição</td>
+                </tr>
+            </thead>
+
+            <tbody id="lista_criar">
+
+            </tbody>
+    
+        </table>
+
+        <a href="#titleview">
+            <button id="card-info-button">Voltar ao topo</button>
+        </a>
+    </main>
+    
+
+    
+    
+</body>
+
+<script src="../script.js"></script>
+</html>

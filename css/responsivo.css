@@ -37,7 +37,7 @@
     main{
         margin: 5px;
         min-width: 340px;
-        
+        width: 100%;
     }
     #TelaView{
         width: 95vw;
