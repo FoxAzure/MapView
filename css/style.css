@@ -3,6 +3,34 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.new_map{
+    animation: animate 1s linear infinite;
+    font-size: 16px;
+    padding: 0 5px;
+    color: rgb(0, 8, 46);
+    color: rgb(231, 0, 0);
+    text-shadow: 0 0 5px rgb(252, 252, 252);
+    font-weight: bold;
+}
+
+@keyframes animate {
+    0% {
+        opacity: 0.0;
+    }
+
+    /*50% {
+        opacity: 0.5;
+        
+    }*/
+
+    100% {
+        opacity: 1;
+    }
+    0% {
+        opacity: 0.0;
+    }
+}
+
 main{
     display: flex;
     flex-flow: column nowrap;
@@ -33,6 +61,12 @@ table thead{
     color: white;
     font-weight: bold;
     font-size: 20px;
+    height: 40px;
+
+}
+td.campo{
+    display: flex;
+    align-items: center;
     height: 40px;
 
 }
