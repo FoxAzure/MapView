@@ -2427,6 +2427,10 @@ var colecao_atualizacao = [
     {data:"17/01/2023", responsavel: "Paulo Roberto", descricao: "Inclusão dos campos: IRECE, PIVO 26, PIVO 27, PIVO 28, SENTO SE e SERRINHA"},
     {data:"17/01/2023", responsavel: "Paulo Roberto", descricao: "Atualização da interface"},
     {data:"16/03/2023", responsavel: "Paulo Roberto", descricao: "Atualização das Atividades Agrícolas e cores da interface"},
+    {data:"02/06/2023", responsavel: "Paulo Roberto", descricao: "Atualização das plantas dos campos: AREIA, BELGICA, DALLAS, DETROIT, JAVA, LAS VEGAS, LOS ANGELES, MISSISSIPI, POLONIA, PHOENIX <br> <br> Inclusão do campo: MINESSOTA  <br><br> Indicador na lista dos campos (*) para campos recém atualizados. <br><br> Atualização das Atividades Agrícolas <br><br>Criado as opçõoes de Baixar o PDF e informar plantas desatualizadas na tela View"},
+
+
+
 ]
 
 function atualizacao(){
