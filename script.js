@@ -309,7 +309,12 @@ function pegarinfo(){
 };
 
 function recarregarpagina(){
+    var cod = localStorage.getItem("cod");
+    var campo = localStorage.getItem("campo");
+
     setTimeout(location.reload(), 15000);
+    //setTimeout(alert(`Planta ${cod} - ${campo} baixa`), 8000);
+    //alert(`Planta ${cod} - ${campo} baixada com sucesso`)
 }
 
 
