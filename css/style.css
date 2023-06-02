@@ -117,6 +117,15 @@ tbody tr{
     color: white;
     text-shadow: 3px 2px 3px rgb(0, 0, 0);
 }
+#link_Download h2{
+    color: white;
+    text-shadow: 3px 2px 3px rgb(0, 0, 0);
+}
+#info_atualizar{
+    color: white;
+    text-shadow: 3px 2px 3px rgb(0, 0, 0);
+    margin: 15px;
+}
 
 #infocampo span{
     font-weight: bold;
