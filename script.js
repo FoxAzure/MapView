@@ -264,13 +264,14 @@ function gerarview(link){
     localStorage.setItem("link",link);
 };
 
-function salvarInfo(cod,campo,setor,depa,tipo,lider){
+function salvarInfo(cod,campo,setor,depa,tipo,lider,download){
     localStorage.setItem("cod",cod);
     localStorage.setItem("campo",campo);
     localStorage.setItem("setor",setor);
     localStorage.setItem("depa",depa);
     localStorage.setItem("tipo",tipo);
     localStorage.setItem("lider",lider);
+    localStorage.setItem("download",download);
 };
 
 function pegarinfo(){
@@ -281,6 +282,7 @@ function pegarinfo(){
     var tipo = localStorage.getItem("tipo");
     var lider = localStorage.getItem("lider");
     var link = localStorage.getItem("link");
+    var download = localStorage.getItem("download");
 
     document.getElementById('infocampo').innerHTML = "<p><span id='info'>Código: </span>" + cod + " - " + campo.replace(/_/g," ") + "</p>" +
     "<p><span id='info'>Setor: </span>" + setor.replace(/_/g," ") + "</p>" +
@@ -298,6 +300,10 @@ function pegarinfo(){
         document.title = "MapView - Planta Geral";
     };
     
+
+    //ALTERAR LINK DOWNLOAD
+    const a = document.querySelector("#link_Download");
+    a.href = download;
 
 };
 
@@ -355,6 +361,7 @@ function criarlista(){
         var novo            =   campos[i].novo;
         var link_campo      =   campos[i].link;
         var projeto_campo      =   campos[i].link_projeto;
+        var LinkDown        =   campos[i].LinkDown;
 
         if (tipolistacriar === "NETAFIM"){
             var linkview = projeto_campo;
@@ -371,7 +378,7 @@ function criarlista(){
             tabela = document.getElementById('lista_criar').innerHTML;
 
             document.getElementById('lista_criar').innerHTML = tabela + 
-            "<tr " + "onclick=" + "window.location='view.html',gerarview('" + linkview + "'),salvarInfo('"+ codigo_campo +"','" + fazenda + "','" + setor_campo + "','" + depa_campo + "','" + tipo_campo + "','" + lider_campo + "')>" + 
+            "<tr " + "onclick=" + "window.location='view.html',gerarview('" + linkview + "'),salvarInfo('"+ codigo_campo +"','" + fazenda + "','" + setor_campo + "','" + depa_campo + "','" + tipo_campo + "','" + lider_campo + "','" + LinkDown + "')>" + 
             "<td class='codigo'>" + codigo_campo + "</td>" + 
             "<td class='campo'>" + nome_campo + novo +"</td>" + 
             "<td>" + setor_campo.replace(/_/g," ") + "</td>" + 
@@ -381,7 +388,7 @@ function criarlista(){
             tabela = document.getElementById('lista_criar').innerHTML;
 
             document.getElementById('lista_criar').innerHTML = tabela + 
-            "<tr " + "onclick=" + "window.location='view.html',gerarview('" + linkview + "'),salvarInfo('"+ codigo_campo +"','" + fazenda + "','" + setor_campo + "','" + depa_campo + "','" + tipo_campo + "','" + lider_campo + "')>" + 
+            "<tr " + "onclick=" + "window.location='view.html',gerarview('" + linkview + "'),salvarInfo('"+ codigo_campo +"','" + fazenda + "','" + setor_campo + "','" + depa_campo + "','" + tipo_campo + "','" + lider_campo + "','" + LinkDown + "')>" + 
             "<td class='codigo'>" + codigo_campo +"</td>" + 
             "<td class='campo'>" + nome_campo + novo + "</td>" + 
             "<td>" + setor_campo.replace(/_/g," ") + "</td>" + 
