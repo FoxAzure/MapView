@@ -305,7 +305,12 @@ function pegarinfo(){
     const a = document.querySelector("#link_Download");
     a.href = download;
 
+
 };
+
+function recarregarpagina(){
+    location.reload();
+}
 
 function plantageral(){
     var tipolista  = "all"
