@@ -309,8 +309,10 @@ function pegarinfo(){
 };
 
 function recarregarpagina(){
-    location.reload();
+    setTimeout(location.reload(), 3000);
 }
+
+
 
 function plantageral(){
     var tipolista  = "all"
