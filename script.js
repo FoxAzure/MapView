@@ -325,16 +325,8 @@ function pegarinfo(){
 };
 
 function recarregarpagina(){
-    var cod = localStorage.getItem("cod");
-    var campo = localStorage.getItem("campo");
-
-    //setTimeout(location.reload(), 150000);
-    //setTimeout(alert(`Planta ${cod} - ${campo} baixa`), 8000);
-    //alert(`Planta ${cod} - ${campo} baixada com sucesso`)
-
-    setTimeout(function () {
-        window.location.reload(1);
-    }, 8000);
+    //AGUARDAR 10 SEGUNDOS PARA TUALIZAR A PAGINA
+    setTimeout(function () {window.location.reload(1);}, 10000);
 }
 
 
