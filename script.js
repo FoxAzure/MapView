@@ -305,6 +305,22 @@ function pegarinfo(){
     const a = document.querySelector("#link_Download");
     a.href = download;
 
+    let saudation;
+    var dataatual = new Date();
+    var horas     = dataatual.getHours();
+
+    if (horas < 12){
+        saudation = "Bom dia";
+    }else if(horas < 18){
+        saudation = "Boa tarde"
+    }else{
+        saudation = "Boa noite"
+    }
+
+    var atualizar = "https://api.whatsapp.com/send?phone=5574998018697&text=" + saudation + " Paulo, o campo: " + cod + " - " + campo + " está com a planta desatualizada no aplicativo MapView."
+
+    const a2 = document.querySelector("#link_atualizar");
+    a2.href = atualizar;
 
 };
 
