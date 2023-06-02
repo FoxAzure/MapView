@@ -309,7 +309,7 @@ function pegarinfo(){
 };
 
 function recarregarpagina(){
-    setTimeout(location.reload(), 3000);
+    setTimeout(location.reload(), 8000);
 }
 
 
